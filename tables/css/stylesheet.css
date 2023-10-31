@@ -1,0 +1,62 @@
+body{
+    background-color: antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    text-align: center;
+    font-weight: bold;
+}
+
+nav{
+    text-align: center;
+}
+
+nav a{
+    color: rgb(0, 0, 0);
+    text-decoration: None;
+    padding: 20px;
+}
+
+
+#creating, #styling, #calender{
+    width: 90%;
+    margin: 20px auto;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+#creating td, #styling td, #styling th, #calender td, #calender th{
+    border: 3px solid rgb(0, 0, 120);
+    min-height: auto;
+    height: 20px;
+}
+
+#styling, #calender{
+    border-collapse: collapse;
+}
+
+#styling th{
+    color: rgb(0, 0, 0);
+}
+
+#styling td{
+    text-align: center;
+    font-weight: bold;
+}
+
+#calender td, #calender th{
+    width: 14.28%;
+    height: 50px;
+}
+
+#calender th{
+    background: rgb(71, 59, 147);
+}
+
+#calender td{
+    text-align: right;
+    vertical-align: top;
+}
+
+.weekend{
+    background: rgb(133, 127, 171);
+}

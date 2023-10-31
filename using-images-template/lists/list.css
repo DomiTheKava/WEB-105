@@ -1,0 +1,26 @@
+body{
+    background-color: rgba(0,0,255,0.6);
+    font-family: sans-serif;
+}
+
+#red{
+    background-color: rgba(255, 0, 0, 0.2);
+}
+
+#green {
+    background-color: rgba(47, 255, 0, 0.2);
+}
+
+ul{
+    list-style-type: "\266A";
+    /* Music note 1*/
+}
+
+ul ul{
+    list-style-type: "\266B";
+    /* Music note 2*/
+}
+
+li a:hover{
+    text-decoration: underline;
+}

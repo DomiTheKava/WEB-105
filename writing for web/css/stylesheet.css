@@ -1,0 +1,192 @@
+h1{
+    text-align: center;
+}
+
+img{
+    box-shadow: 1px 1px 10px 1px black;
+}
+
+p,h1,h2,h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container a:hover{
+    color: purple;
+}
+
+body{
+    background-color: rgb(174, 211, 244);
+    padding-left: 15vw;
+    padding-right: 15vw;
+}
+
+p{
+    font-size: larger;
+    /* line-height: 1.5px; */
+    line-height: 1.5;
+}
+
+#index_page ul{
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+nav a {
+    font-size: larger;
+    font-weight: bold;
+    margin-left: 70px;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    background-color: rgb(74, 79, 184);
+    border-radius: 40%;
+    text-decoration: none;
+}
+
+.current {
+    background-color: blue;
+}
+
+nav{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50vw;
+    text-align: center;
+    background-color: rgb(102, 102, 244);
+    padding: 15px;
+    border-radius: 100px;
+    border: 2px solid rgb(81, 81, 81);
+}
+
+footer{
+    position: fixed;
+    bottom: 1px;
+    right: 1px;
+}
+
+body #sidebar{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 15%;
+    height:120vh;
+    background-image: url("../images/09_PenkavaPhotos.jpeg");
+    box-shadow: 4px -5px 5px 1px rgb(75, 133, 176);
+}
+body #sidebar_left {
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 15%;
+    height: 120vh;
+    background-image: url("../images/09_PenkavaPhotos.jpeg");
+    rotate: 180deg;
+    box-shadow: 4px 5px 5px 1px rgb(75, 133, 176);
+}
+
+#index_page h2{
+    position: relative;
+    right: 2vw;
+    top: 15vh;
+    margin-top: 2vw;
+    text-align: right;
+    padding-right: 16vw;
+}
+#index_page p{
+    padding-right: 1vw;
+    position: relative;
+    top: 16vh;
+}
+
+
+#index_page img{
+    margin-left: 2vw;
+    margin-right: 2vw;
+    width: 30vw;
+    border: 3px solid black;
+    float: left;
+    }
+
+#hockey img{
+    border: 3px solid black;
+    float: left;
+    margin: 1vw;
+}
+
+#hockey p{
+    position: relative;
+    top: -5px;
+    margin-right: 1vw;
+    margin-left: 1vw;
+}
+
+#hockey h3, #hockey h2{
+    text-align: center;
+}
+
+
+#cast{
+    float: left;
+    border: 3px solid black;
+    margin: 3px;
+    width: 36vw;
+    margin-right: 5px;
+    margin-bottom: 15px;
+}
+
+#storm{
+    float: right;
+    border: 3px solid black;
+    margin: 3px;
+    width: 30vw;
+    margin-bottom: 11px;
+}
+
+#title{
+    text-align: center;
+}
+
+#titleDisc{
+    text-align: center;
+    position: relative;
+    top: -15px;
+    font-size: smaller;
+}
+
+#starwars h3{
+    text-align: center;
+}
+
+#starwars p{
+    position: relative;
+    top: -10px;
+    padding-right: 3px;
+    padding-left: 3px;
+    padding-bottom: 3px;
+}
+
+#programming h2,h3{
+    text-align: center;
+}
+
+#laptopguy{
+    width: 30vw;
+    float: right;
+    border: 3px solid black;
+    margin-right: 10px;
+}
+
+#htmlscreen{
+    position: relative;
+    width: 60vw;
+    margin: 3px;
+    right: -4vw;
+    top: 5px;
+    border: 3px solid black;
+}
+
+#programming p{
+    position: relative;
+    top: -10px;
+}
