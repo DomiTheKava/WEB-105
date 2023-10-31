@@ -1,0 +1,49 @@
+body{
+    background: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+    text-align: center;
+}
+
+h1{
+    font-family: cursive;
+    color: rgb(97, 133, 231);
+}
+
+h2{
+    color: rgb(255, 0, 0);
+    text-align: center;
+    padding-left: 40px;
+}
+
+ul, ol{
+    color: rgb(0,200,0);
+    list-style-position: inside;
+    
+}
+
+p{
+    color: green;
+}
+
+img{
+    width: 500px;
+    height: 500px;
+    border-radius: 100%;
+    display: block;
+    margin: 10px auto;
+    border: 10px solid rgb(0, 255, 124) 
+}
+
+figure{
+    border: 2px solid red;
+    width: 550px;
+    margin: auto;
+    background: blue;
+    border-radius: 500px;
+    padding: 10px
+}
+
+figcaption{
+    display: None
+}
