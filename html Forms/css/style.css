@@ -1,0 +1,95 @@
+/* Variables */
+
+/* Colors 
+#58d9e1
+#67a8c1
+#0c97ec
+
+font-family: 'Noto Sans',
+sans-serif;
+font-family: 'Averia Serif Libre',
+serif;
+*/
+
+body{
+    background: rgb(58, 58, 58);
+}
+
+h1,h2,h3{
+    font-family: 'Averia Serif Libre', serif;
+    color: #67a8c1;
+    text-align: center;
+}
+
+p, a{
+    font-family: 'Noto Sans', sans-serif;
+}
+
+nav{
+    text-align: center;
+    padding: 20px;
+}
+
+nav a{
+    background: lightgrey;
+    padding: 10px 30px;
+    margin: 10px;
+    color: black;
+    text-decoration: None;
+    background: #67a8c1;
+    border-radius: 10px;
+}
+
+nav a:hover{
+    color: rgb(228, 228, 228);
+    background: #477688;
+}
+
+img{
+    position: relative;
+    left: 25%;
+    margin: 10px;
+    width: 50%;
+    display: block;
+}
+
+.container{
+    padding: 20px;
+    width: 80%;
+    margin: 10px auto;
+    border: 2px solid red;
+}
+
+footer{
+    text-align: center;
+}
+
+form{
+    background: aliceblue;
+    text-align: center;
+    padding: 10px;
+}
+
+.large_round{
+    width: 20%;
+    border-radius: 10px;
+    text-align: center;
+    padding: 5px;
+}
+
+#submit{
+    width: 10%;
+    padding: 5px;
+    text-align: center;
+    border-radius: 10px;
+    border: 3px solid rgb(0, 0, 0);
+    
+}
+
+#email{
+    width: 15%;
+}
+
+form:focus{
+    background-color: blue;
+}
