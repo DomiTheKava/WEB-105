@@ -1,0 +1,48 @@
+body{
+    background-color: rgb(173, 242, 242);
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#duck{
+    width: 100%;
+}
+#ducky{
+    background-color: black;
+}
+
+h1{
+    text-align: center;
+}
+nav{
+    text-align: center;
+}
+    /* buttons */
+nav a{
+    color: black;
+    font-size: 25px;
+    text-decoration: none;
+    margin-left: 50px;
+    background: grey;
+    padding: 10px;
+    border-radius: 50px;
+}
+nav a:hover{
+    color: blue;
+    background: rgb(74, 74, 74);
+}
+
+li{
+    list-style-type: none;
+}
+
+li a{
+    line-height: 2;
+    color: red;
+    font-size: large;
+    font-weight: bold;  
+    text-decoration: none;
+}
+
+h2{
+    margin-top: 300px;
+}

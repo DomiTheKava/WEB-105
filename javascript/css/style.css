@@ -1,0 +1,100 @@
+/* Variables 
+
+:root {
+    --blue: #6495ed;
+    --white: #faf0e6;
+}
+
+body {
+    background-color: var(--blue);
+}
+*/
+
+/* Colors */
+:root{
+--light: #58d9e1;
+--dark: #67a8c1;
+--darker: #0c97ec;
+--darkest: #00619d;
+--backround: #4e4e4e;
+
+--type: font-family: 'Noto Sans', sans-serif;
+--headings: font-family: 'Averia Serif Libre', serif;
+}
+
+
+body{
+    background: var(--backround);
+}
+
+h1,h2,h3{
+    font-family: var(--headings);
+    color: #67a8c1;
+    text-align: center;
+}
+
+p, a{
+    font-family: var(--type);
+    font-weight: bold;
+}
+
+nav{
+    text-align: center;
+    padding: 20px;
+}
+
+nav a{
+    background: lightgrey;
+    padding: 10px 30px;
+    margin: 10px;
+    color: black;
+    text-decoration: None;
+    background: var(--dark);
+    border-radius: 10px;
+}
+
+nav a:hover{
+    color: rgb(228, 228, 228);
+    background: var(--darkest);
+}
+
+img{
+    margin: 10px auto;
+    width: 90%;
+    display: block;
+}
+
+.container{
+    padding: 20px;
+    width: 80%;
+    margin: 10px auto;
+    border: 2px solid green;
+}
+
+footer{
+    color: var(--darkest);
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    gap: 10px;
+    background-color: black;
+    padding: 10px;
+}
+
+.grid-container>div {
+    background-color: rgba(154, 154, 154, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    cursor: pointer;
+}
+
+#large {
+    position: relative;
+    width: 40%;
+    display: block;
+    margin: 25px;
+    left: 25%;
+}
