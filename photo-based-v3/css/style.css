@@ -1,0 +1,258 @@
+:root {
+    --light: #49a7dd8a;
+    --dark: #939393; /* backround of text */
+    --darker: #919191; /* nav backround */
+    --darkest: #5d5d5d; /* nav backround when on page */
+    --backround: #7b7b7b;
+    --type: font-family: 'Noto Sans', sans-serif;
+    --headings: font-family: 'Averia Serif Libre', serif;
+}
+
+body{
+    background-color: var(--backround);
+}
+
+figcaption{
+    background-color: var(--dark);
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    font-family: var(--headings);
+    font-size: 60px;
+    text-decoration: underline;
+}
+
+h2{
+    text-align: center;
+    font-family: var(--headings);
+    text-decoration: underline;
+    font-size: xx-large;
+}
+
+p {
+    font-size: 20px;
+    font-family: var(--type);
+}
+
+[class*="col-"] {
+    float: left;
+    /* padding: 15px; */
+}
+
+*{
+    box-sizing: border-box;
+  /*  border: 1px solid red; */
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+nav a {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    background-color: var(--darker);
+    padding: 15px;
+    border-radius: 50px;
+    margin-left: 15px;
+    margin-bottom: 5px;
+    border: 1px solid black;
+}
+
+/*  current page open */
+#current {
+    background-color: var(--darkest);
+}
+
+/* hover on nav button */
+nav a:hover {
+    background-color: var(--darkest);
+}
+
+nav {
+    padding: 10px;
+    padding-top: 2vh;
+    width: 100%;
+    text-align: center;
+}
+/* center images horizontally */
+.center{
+    margin: auto;
+}
+/* set a backround to whatever object */
+.back{
+    background-color: var(--dark);
+}
+/* add some padding */
+.pads{
+    padding: 10px;
+}
+/* make object float */
+.floater{
+    float: left;
+}
+
+img{
+    border: 4px solid var(--dark);
+}
+
+figure{
+    object-fit: contain;
+}
+
+/* desktop */
+@media only screen and (min-width: 768px) {
+
+    .square {
+            height: 20vh;
+            width: 20vw;
+        }
+
+    .square_extended{
+        height: 50vw;
+        width: 50vw;
+    }
+
+    nav a{
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    nav{
+        display: flex;
+        justify-content: center;
+    }
+        .col-1 {
+            width: 8.33%;
+        }
+    
+        .col-2 {
+            width: 16.66%;
+        }
+
+        .col-3 {
+            width: 25%;
+        }
+    
+        .col-4 {
+            width: 33.33%;
+        }
+    
+        .col-5 {
+            width: 41.66%;
+        }
+    
+        .col-6 {
+            width: 50%;
+        }
+    
+        .col-7 {
+            width: 58.33%;
+        }
+    
+        .col-8 {
+            width: 66.66%;
+        }
+    
+        .col-9 {
+            width: 75%;
+        }
+    
+        .col-10 {
+            width: 83.33%;
+        }
+    
+        .col-11 {
+            width: 91.66%;
+        }
+    
+        .col-12 {
+            width: 100%;
+        }
+        /* figure with image has margin automatically */
+        figure {
+            margin: 0%;
+            padding: 1%;
+        }
+
+}
+
+
+/* mobile */
+@media only screen and (max-width: 768px) {
+
+    .height {
+        padding-bottom: 0px;
+    }
+
+    .m_col-1 {
+        width: 8.33%;
+    }
+
+    .m_col-2 {
+        width: 16.66%;
+    }
+
+    .m_col-3 {
+        width: 25%;
+    }
+
+    .m_col-4 {
+        width: 33.33%;
+    }
+
+    .m_col-5 {
+        width: 41.66%;
+    }
+
+    .m_col-6 {
+        width: 50%;
+    }
+
+    .m_col-7 {
+        width: 58.33%;
+    }
+
+    .m_col-8 {
+        width: 66.66%;
+    }
+
+    .m_col-9 {
+        width: 75%;
+    }
+
+    .m_col-10 {
+        width: 83.33%;
+    }
+
+    .m_col-11 {
+        width: 91.66%;
+    }
+
+    .m_col-12 {
+        width: 100%;
+    }
+
+    nav a{
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    figure {
+        margin: 0%;
+        padding: 0%;
+        margin-bottom: 5px;
+        margin: 20px auto;
+    }
+
+    figure img{
+        width: 100%;
+    }
+
+}
+
