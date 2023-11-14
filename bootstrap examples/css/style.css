@@ -1,0 +1,25 @@
+:root{
+    --backround: #676767;
+    --framebackround: #7b7b7b;
+    --textcolor: #ffffff;
+
+    --textfont: font-family: 'Times New Roman', Times, serif;
+    --titlefont: font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+    background-color: var(--backround);
+}
+
+p, a{
+    font-family: var(--textfont);
+    color: var(--textcolor);
+}
+
+.masthead{
+    background-color: rgb(197, 197, 197);
+    color: black;
+    text-align: center;
+    padding: 30px;
+    margin-bottom: 40px;
+}
